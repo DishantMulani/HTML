@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(43 42 80);
+}
+
+table {
+    margin-top: 4%;
+    margin-left: 30%;
+}
+
+th {
+    font-size: 40px;
+    color: white;
+}
+
+td {
+    color: white;
+    padding-top: 17px;
+}
+
+input {
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    border-color: whitesmoke;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-color: blue;
+    border-radius: 20px;
+    font-size: large;
+    position: absolute;
+    padding: 5px;
+    margin: 10px 115px;
+}

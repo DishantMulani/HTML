@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+}
+a{
+    text-transform: uppercase;
+}
+li {
+    padding-top: 25px;
+    margin-left: 20%;
+}
+
+hr {
+    background: gold;
+}

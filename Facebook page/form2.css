@@ -1,0 +1,41 @@
+* {
+    background-color: black;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+h5{
+    color: white;
+    text-align: center;
+}
+
+table {
+    padding-left: 35%;
+    top: 200px;
+}
+
+input {
+    color: black;
+    background: white;
+    border-color: blue;
+    border-radius: 50px;
+    margin-left: 57px;
+    padding: 3px 30px;
+    font-size: large;
+}
+
+button {
+    color: white;
+    margin-top: 50px;
+    margin-left: 33%;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 20px;
+    width: 149px;
+    height: 30px;
+}

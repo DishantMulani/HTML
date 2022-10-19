@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+}
+table {
+    padding-left: 35%;
+    top: 200px;
+}
+
+th {
+    color: blue;
+    text-align: center;
+    padding-top: 35%;
+    font-size: 35px;
+}
+
+td {
+    color: white;
+}
+
+.hii {
+    text-align: center;
+    padding-top: 15px;
+}
+
+lable {
+    font-size: 20px;
+}
+
+input {
+    margin-left: 197px;
+    margin-top: 6px;
+    font-size: large;
+    float: right;
+}
+
+button {
+    color: white;
+    font: bold;
+    margin-top: 50px;
+    margin-left: 24%;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 20px;
+    width: 149px;
+    height: 30px;
+}

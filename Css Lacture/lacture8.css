@@ -1,0 +1,29 @@
+.text {
+    height: 100px;
+    width: 260px;
+    border: 2px solid red;
+    background-color: yellow;
+    margin: 100px 0px 0px 150px;
+}
+
+.text {
+    animation-name: denish;
+    animation-duration: 10s;
+    /* animation-iteration-count: infinite;
+    animation-play-state: running; */
+    animation-delay: 5sec;
+}
+
+@keyframes denish {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    70% {
+        transform: scale(2);
+    }
+}

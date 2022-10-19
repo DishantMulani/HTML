@@ -1,0 +1,23 @@
+.hii {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px 200px;
+}
+
+.hii:hover {
+    height: 300px;
+    width: 500px;
+    /* transform: translate(50px,100px); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: scale(1.5,2); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: rotate(180deg); */
+    /* transform: skew(10px,20px); */
+    /* transition-duration: 5sec;
+    transition-property: height;
+    transition-timing-function:ease ; */
+    transition-delay: 5sec;
+}

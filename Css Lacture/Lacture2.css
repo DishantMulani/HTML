@@ -1,0 +1,215 @@
+button {
+    background-color: red;
+    color: black;
+    padding: 20px 20px;
+    margin: 30px 80px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+    border: 10px solid blue;
+}
+
+a {
+    background-color: red;
+    color: black;
+    padding: 20px 20px;
+    margin: 80px 80px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:focus {
+    background-color: black;
+    color: red;
+    border: 10px solid blue;
+}
+
+input {
+    background-color: red;
+    color: black;
+    padding: 20px 20px;
+    margin: 30px 80px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+input:hover {
+    background-color: black;
+    color: red;
+    border: 10px solid blue;
+}
+
+input:focus {
+    background-color: black;
+    color: red;
+    border: 10px solid blue;
+}
+
+.font-family p:nth-child(1) {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-family p:nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-family p:nth-child(3) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font-size p:nth-child(1) {
+    font-size: 20px;
+}
+
+.font-size p:nth-child(2) {
+    font-size: 40px;
+}
+
+.font-size p:nth-child(3) {
+    font-size: 60px;
+}
+
+.font-stretch p:nth-child(1) {
+    font-stretch: condensed;
+}
+
+.font-style p:nth-child(1) {
+    font-style: italic;
+}
+
+.font-style p:nth-child(2) {
+    font-style: oblique;
+}
+
+.font-variant p:nth-child(1) {
+    font-variant: small-caps;
+}
+
+.font-weight p:nth-child(1) {
+    font-weight: bold;
+}
+
+.font-weight p:nth-child(2) {
+    font-weight: lighter;
+}
+
+.font-weight p:nth-child(3) {
+    font-weight: bolder;
+}
+
+.line-height p:nth-child(1) {
+    line-height: 100px;
+}
+
+.text-color p:nth-child(1) {
+    color: red;
+}
+
+.text-align p:nth-child(1) {
+    text-align: left;
+}
+
+.text-align p:nth-child(2) {
+    text-align: center;
+}
+
+.text-align p:nth-child(3) {
+    text-align: right;
+}
+
+.text-decoration p:nth-child(1) {
+    text-decoration: overline;
+}
+
+.text-decoration p:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.text-decoration p:nth-child(3) {
+    text-decoration: underline;
+}
+
+.text-decoration p:nth-child(4) {
+    text-decoration: underline dotted;
+}
+
+.text-decoration p:nth-child(5) {
+    text-decoration: wavy red underline;
+}
+
+.text-transform p:nth-child(1) {
+    text-transform: capitalize;
+}
+
+.text-transform p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.text-indent p:nth-child(1) {
+    text-indent: 150px;
+}
+
+.letter-spacing p:nth-child(1) {
+    letter-spacing: 25px;
+}
+
+.word-spacing p:nth-child(1) {
+    word-spacing: 25px;
+}
+
+.text-shadow {
+    text-shadow: 10px 5px 2px blue;
+}
+
+.vertical p .a {
+    vertical-align: bottom;
+}
+
+.vertical p .b {
+    vertical-align: top;
+}
+
+.vertical p .c {
+    vertical-align: baseline;
+}
+
+.vertical p .d {
+    vertical-align: middle;
+}
+
+.vertical p .e {
+    vertical-align: sub;
+}
+
+.vertical p .f {
+    vertical-align: super;
+}
+
+.vertical p .g {
+    vertical-align: text-bottom;
+}
+
+.whitespace {
+    white-space: nowrap;
+}
+
+.word-wrap {
+    word-wrap: break-word;
+}
+
+.visibility {
+    visibility: visible;
+}
+h1{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgba(241, 5, 5, 0.888),rgba(23, 70, 223, 0.797));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
