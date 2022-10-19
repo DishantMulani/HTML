@@ -1,0 +1,307 @@
+@media (max-width:320px) {
+
+    .container {
+        max-width: 300px;
+    }
+
+    .logo {
+        padding-left: 80px;
+    }
+
+    .social-ico i {
+        padding: 3px;
+    }
+
+    .bgi .text {
+        text-align: center;
+    }
+
+    .bgi .text h1 {
+        font-size: 40px;
+    }
+
+    .bgi .text p {
+        font-size: 11px;
+    }
+
+    .bgi .text button {
+        justify-content: center;
+        margin-left: 25%;
+    }
+
+    .page2 {
+        height: 1650px;
+    }
+
+    .page3 .container .heading1 h3 {
+        padding-top: 0px;
+    }
+
+    .teim .text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .teim .text1 h1 {
+        font-size: 32px;
+    }
+
+    .teim .text .text2 {
+        text-align: left;
+    }
+
+    .teim .image {
+        margin-top: 25px;
+        height: 250px;
+        width: 265px;
+    }
+
+    .teim .image img {
+        height: 250px;
+        width: 265px;
+    }
+
+    .container .heading {
+        margin: 30px 0px;
+    }
+
+    .container .heading h1 {
+        font-size: 30px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        padding: 20px 20px;
+        margin-bottom: 30px;
+    }
+
+    .box h3 {
+        margin-top: 20px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .page3 {
+        height: 2500px;
+        margin-top: 150px;
+    }
+
+    .box8 {
+        margin-top: 30px;
+    }
+
+    .box8 .box-1,
+    .box8 .box-2,
+    .box8 .box-3,
+    .box8 .box-4 {
+        margin-top: 20px;
+    }
+
+    .box8 .box-2,
+    .box8 .box-4 {
+
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .box8 .text-box2,
+    .box8 .text-box4 {
+        width: 100%;
+        margin-top: -4px;
+    }
+
+    .div1-1-1 img {
+        height: 280px;
+        width: 140px;
+    }
+
+    .div1-1-2 img,
+    .div2-2-2 img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .div2-2-1 img {
+        height: 140px;
+        width: 280px;
+        margin-top: -4px;
+    }
+
+    .div1-2 img {
+        height: 280px;
+        width: 280px;
+        margin-top: -4px;
+    }
+
+    .div2-1 img {
+        height: 280px;
+        width: 280px;
+    }
+
+    .bg {
+        margin-top: 200px;
+    }
+
+    .page5 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .page5 h2,
+    .page5 p {
+        text-align: center;
+    }
+
+    .text h2 {
+        text-align: left;
+    }
+
+    .icon-5 .fa-regular,
+    .icon-5 .fa-regular,
+    .icon-5 .fa-solid {
+        font-size: 40px;
+    }
+
+    .icon {
+        padding: 40px 0px;
+
+    }
+
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        margin: 20px 0px;
+    }
+
+    .icon h3 {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .icon p {
+        font-size: 20px;
+    }
+
+    .circle {
+        margin-top: 50px;
+    }
+
+    .circle-1,
+    .circle-2 {
+        width: 100%;
+    }
+
+    .bg2 {
+        height: 2220px;
+        margin-top: 50px;
+    }
+
+    .page6 h4 {
+        font-size: 20px;
+    }
+
+    .page6 h1 {
+        font-size: 30px;
+    }
+
+    .div31,
+    .div32,
+    .div33 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .page7 {
+        margin: 0px 0px;
+    }
+
+    .page-71 .image,
+    .page-72 .image {
+        height: 280px;
+        width: 280px;
+    }
+
+    .page-71 h1,
+    .page-72 h1,
+    .page-71 p,
+    .page-72 p {
+        text-align: center;
+    }
+
+    .page-71 p,
+    .page-72 p {
+        font-size: 15px;
+    }
+
+    .page-71 .text,
+    .page-72 .text {
+        padding: 0%;
+    }
+
+    .page7 button {
+        width: 150px;
+    }
+
+    .page8 {
+        margin-top: 500px;
+    }
+
+    .text8 {
+        padding: 30px;
+    }
+
+    .add,
+    .tel1,
+    .tel2,
+    .open {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .form {
+        margin: 0px 14px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    .form h5,
+    .form h1 {
+        text-align: center;
+    }
+
+    .submit {
+        width: 200px;
+    }
+
+    .f1,
+    .f2,
+    .f3,
+    .f4 {
+        margin-bottom: 25px;
+    }
+
+    .icon6 ul {
+        padding-left: 0px;
+        justify-content: left;
+    }
+
+    .icon6 ul li {
+        padding: 20px 10px;
+    }
+
+    .icon6 ul li i {
+        font-size: 22px;
+    }
+
+    F footer p {
+        font-size: 22px;
+        text-align: left;
+    }
+}
