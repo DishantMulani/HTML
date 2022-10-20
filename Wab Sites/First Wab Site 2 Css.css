@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -19,6 +20,16 @@ header {
 
 .social-ico i {
     padding: 15px;
+    border-radius: 100%;
+}
+
+.social-ico .fa-facebook-f {
+    padding: 14px 17px;
+}
+
+.social-ico i:hover {
+    background: linear-gradient(to bottom, #fc294b 40%, #913596 80%);
+    color: white;
 }
 
 .list ul {
@@ -40,6 +51,8 @@ header {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+
 
 nav ul li a::after {
     content: '';
@@ -69,9 +82,13 @@ nav ul li a:hover::after {
     margin: 0;
 }
 
+.bgi .text {
+    padding-top: 300px;
+    padding-left: 300px;
+}
+
 .bgi .text h1 {
     font-size: 50px;
-    padding-top: 20px;
 }
 
 .bgi .text h1 span {
@@ -101,12 +118,21 @@ nav ul li a:hover::after {
     background-color: transparent;
     color: black;
     font-weight: 700;
-
 }
 
 .bgi .text .button2 {
     color: white;
     background: linear-gradient(to right, rgb(255, 0, 21), rgb(120, 5, 140));
+}
+
+.bgi .text .button .button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.bgi .text .button .button2:hover {
+    transition: 0.6s ease-in;
+    background: linear-gradient(to left, rgb(255, 0, 21), rgb(120, 5, 140));
 }
 
 .page2,
@@ -197,7 +223,6 @@ nav ul li a:hover::after {
     box-shadow: 0px 0px 6px gray;
     border: 1px solid gray;
     align-items: center;
-
 }
 
 .box .bi {
@@ -206,6 +231,21 @@ nav ul li a:hover::after {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.box .bi:hover {
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+    background: linear-gradient(to right, #fc294b 40%, #913596 80%);
+    color: white;
+    background-color: transparent;
+}
+
 
 .box h3 {
     font-size: 23px;
@@ -259,6 +299,21 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
+.box-1 .image-1,
+.box-2 .image-2,
+.box-3 .image-3,
+.box-4 .image-4 {
+    overflow: hidden;
+}
+
+.box-1 .image-1 img:hover,
+.box-2 .image-2 img:hover,
+.box-3 .image-3 img:hover,
+.box-4 .image-4 img:hover {
+    transition-duration: 1.5s;
+    transform: scale(1.2);
+}
+
 .text-box1,
 .text-box3 {
     background-color: white;
@@ -295,7 +350,7 @@ nav ul li a:hover::after {
 
 .box8 .social-icon ul li {
     list-style: none;
-    margin: 24px 8px;
+    margin: 11px 8px;
 }
 
 .box8 .social-icon ul li i {
@@ -324,10 +379,35 @@ nav ul li a:hover::after {
     margin-top: 80px;
 }
 
-.div1 {
+.div1,
+.div2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    cursor: pointer;
+}
+
+.div1-1-1,
+.div1-1-2-1,
+.div1-1-2-2,
+.div1-2,
+.div2-1,
+.div2-2-1,
+.div2-2-2-1,
+.div2-2-2-2 {
+    overflow: hidden;
+}
+
+.div1-1-1 img:hover,
+.div1-1-2-1 img:hover,
+.div1-1-2-2 img:hover,
+.div1-2 img:hover,
+.div2-1 img:hover,
+.div2-2-1 img:hover,
+.div2-2-2-1 img:hover,
+.div2-2-2-2 img:hover {
+    transition-duration: 1.5s;
+    transform: scale(1.4);
 }
 
 .div1-1 {
@@ -339,14 +419,9 @@ nav ul li a:hover::after {
 }
 
 .div1-1-2-2 {
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
-.div2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .div2-1 img {
     height: 585px;
@@ -363,7 +438,7 @@ nav ul li a:hover::after {
 
 .div2,
 .div2-2-2 {
-    margin-top: -4px;
+    margin-top: -5px;
 }
 
 .bg {
@@ -382,7 +457,7 @@ nav ul li a:hover::after {
 }
 
 .page5 .text {
-    width: 65%;
+    width: 61%;
     padding: 30px 0px;
 }
 
@@ -556,6 +631,20 @@ nav ul li a:hover::after {
     background-color: transparent;
 }
 
+.div31 button:hover,
+.div33 button:hover {
+    transition: 0.6s ease-out;
+    background-color: black;
+    color: white;
+}
+
+.div32 button:hover {
+    transition: 0.6s ease-out;
+    background-color: white;
+    color: black;
+}
+
+
 .div31 h3 span,
 .div33 h3 span {
     background: linear-gradient(to right, #fc294b 40%, #913596 80%);
@@ -639,6 +728,13 @@ nav ul li a:hover::after {
     border-radius: 25px;
     font-weight: bold;
 }
+
+.page-71 button:hover,
+.page-72 button:hover {
+    transition: 0.6s ease;
+    background: linear-gradient(to left, rgb(255, 0, 21), rgb(120, 5, 140));
+}
+
 
 .page8 {
     background-image: url(../Asset\ Photos/asset\ 21.jpeg);
@@ -724,13 +820,20 @@ textarea {
 }
 
 .submit {
+    font-size: 20px;
+    font-weight: 500;
     border: none;
-    width: 200px;
-    padding: 10px 20px;
-    border-radius: 20px;
+    width: 300px;
+    padding: 13px 20px;
+    border-radius: 27px;
     cursor: pointer;
     background: linear-gradient(to right, rgb(255, 0, 21), rgb(120, 5, 140));
     color: white;
+}
+
+.submit:hover {
+    transition: 0.6s ease;
+    background: linear-gradient(to left, rgb(255, 0, 21), rgb(120, 5, 140));
 }
 
 footer {
@@ -747,9 +850,8 @@ footer {
 }
 
 .icon6 ul li {
-    display: flex;
+    list-style: none;
     text-decoration: none;
-    padding: 20px 20px;
 }
 
 .icon6 ul li i {
@@ -758,4 +860,58 @@ footer {
 
 footer p {
     font-size: 25px;
+}
+
+.icon6 i {
+    border-radius: 100%;
+}
+
+.icon6 .fa-facebook-f {
+    padding: 20px 26px;
+}
+
+.icon6 .fa-twitter {
+    padding: 20px 20px;
+}
+
+.icon6 .fa-google-plus-g {
+    padding: 20px 17px;
+}
+
+.icon6 .fa-linkedin-in {
+    padding: 20px 22px;
+}
+
+.icon6 .fa-instagram {
+    padding: 20px 22px;
+}
+
+.icon6 .fa-envelope {
+    padding: 20px 20px;
+}
+
+.icon6 .fa-facebook-f:hover,
+.icon6 .fa-linkedin-in:hover {
+    transition: 0.6s ease;
+    background: #0000ff;
+    color: white;
+}
+
+.icon6 .fa-twitter:hover {
+    transition: 0.6s ease;
+    background: rgb(0, 162, 255);
+    color: white;
+}
+
+.icon6 .fa-google-plus-g:hover,
+.icon6 .fa-envelope:hover {
+    transition: 0.6s ease;
+    background: #e9445f;
+    color: white;
+}
+
+.icon6 .fa-instagram:hover {
+    transition: 0.6s ease;
+    background: linear-gradient(to top, #fc294b 40%, #913596 80%);
+    color: white;
 }

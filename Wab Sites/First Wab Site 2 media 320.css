@@ -1,19 +1,28 @@
 @media (max-width:320px) {
+    * {
+        min-width: 300p;
+    }
 
     .container {
-        max-width: 300px;
+        min-width: 300px;
     }
 
     .logo {
-        padding-left: 80px;
+        align-items: flex-end;
     }
 
     .social-ico i {
+        display: none;
+    }
+
+    .social-ico .fa-facebook-f {
         padding: 3px;
     }
 
     .bgi .text {
         text-align: center;
+        padding-top: 20px;
+        padding-left: 0px;
     }
 
     .bgi .text h1 {
@@ -30,6 +39,7 @@
     }
 
     .page2 {
+        min-width: 300px;
         height: 1650px;
     }
 
@@ -85,8 +95,8 @@
     }
 
     .page3 {
-        height: 2500px;
-        margin-top: 150px;
+        height: 2550px;
+        margin-top: 420px;
     }
 
     .box8 {
@@ -127,13 +137,13 @@
     .div2-2-1 img {
         height: 140px;
         width: 280px;
-        margin-top: -4px;
+        margin-top: -5px;
     }
 
     .div1-2 img {
         height: 280px;
         width: 280px;
-        margin-top: -4px;
+        margin-top: -5px;
     }
 
     .div2-1 img {
@@ -143,6 +153,8 @@
 
     .bg {
         margin-top: 200px;
+        min-width: 300px;
+        height: 1300px;
     }
 
     .page5 {
@@ -199,7 +211,8 @@
     }
 
     .bg2 {
-        height: 2220px;
+        min-width: 300px;
+        height: 2350px;
         margin-top: 50px;
     }
 
@@ -238,6 +251,7 @@
     .page-71 p,
     .page-72 p {
         font-size: 15px;
+        text-align: left;
     }
 
     .page-71 .text,
@@ -250,7 +264,8 @@
     }
 
     .page8 {
-        margin-top: 500px;
+        min-width: 300px;
+        margin-top: 725px;
     }
 
     .text8 {
@@ -293,15 +308,39 @@
     }
 
     .icon6 ul li {
-        padding: 20px 10px;
+        padding: 0px;
     }
 
     .icon6 ul li i {
         font-size: 22px;
     }
 
-    F footer p {
+    footer p {
         font-size: 22px;
         text-align: left;
+    }
+
+    .icon6 .fa-facebook-f {
+        padding: 10px 14px;
+    }
+
+    .icon6 .fa-twitter {
+        padding: 10px 10px;
+    }
+
+    .icon6 .fa-google-plus-g {
+        padding: 10px 8px;
+    }
+
+    .icon6 .fa-linkedin-in {
+        padding: 10px 12px;
+    }
+
+    .icon6 .fa-instagram {
+        padding: 10px 12px;
+    }
+
+    .icon6 .fa-envelope {
+        padding: 10px 10px;
     }
 }
