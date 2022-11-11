@@ -1,0 +1,162 @@
+@media (max-width:992px) {
+    header .social-icon {
+        display: none;
+    }
+
+    header .logo {
+        text-align: right;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    .bgi {
+        height: 350px;
+    }
+
+    .text {
+        text-align: center;
+        left: 0%;
+        top: 95%;
+    }
+
+    .text .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-2 {
+        margin-top: 350px;
+    }
+
+    .image {
+        margin-top: 25px;
+    }
+
+    .text1 h5,
+    .text1 h1,
+    .text1 p {
+        text-align: center;
+    }
+
+    .text1 h1 {
+        font-size: 40px;
+    }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
+    .team-details-1,
+    .team-details-2 {
+        height: 347px;
+    }
+
+    .page-5-1 .text-page-5-1 {
+        text-align: center;
+    }
+
+    .page-5-1 .line {
+        display: none;
+    }
+
+    .page-5-1 .social-icon {
+        margin-top: 20px;
+    }
+
+    .bu {
+        margin-top: 50px;
+    }
+
+    .text7 .text8 {
+        text-align: center;
+    }
+
+    .form {
+        margin: 100px 0px;
+    }
+
+    .border1,
+    .border2 {
+        margin-top: 25px;
+    }
+
+    .page-4 .byy {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .bgi {
+        height: 325px;
+    }
+
+    .page-2 {
+        margin-top: 400px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .bgi {
+        height: 300px;
+    }
+
+    .page-2 {
+        margin-top: 450px;
+    }
+
+    .button2 {
+        width: 50;
+    }
+
+    .page-4 .p1 {
+        margin-top: 20px;
+    }
+
+    .page-4 .hii2 {
+        padding-right: 12px;
+    }
+
+    .page-4 .hii3 {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width:350px) {
+    .button {
+        flex-wrap: wrap;
+    }
+
+    .text .button {
+        margin-top: 0px;
+    }
+
+    .text button {
+        margin: 0px;
+    }
+
+    .page-2 {
+        margin-top: 470px;
+    }
+}
+
+@media (max-width:300px) {
+    .page-2 {
+        margin-top: 550px;
+    }
+}
+
+@media (max-width:250px) {
+    .page-2 {
+        margin-top: 620px;
+    }
+}
+
+@media (max-width:200px) {
+    .page-2 {
+        margin-top: 650px;
+    }
+}
