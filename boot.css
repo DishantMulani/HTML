@@ -77,6 +77,19 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(to right, #fc294b 40%, #913596 80%);
+    display: block;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
 .bgi {
     background-image: url(../Asset\ Photos/asset\ 2.jpeg);
     background-position: center;
@@ -318,9 +331,16 @@ nav ul li a:hover::after {
     border-radius: 100%;
 }
 
-.team-details-1 .social-icon ul li i .fa-facebook-f {
-    padding: 8px 12px;
+.team-details-1 .social-icon ul li .fa-facebook-f {
+    padding: 9px 13px;
 }
+
+.team-details-1 .social-icon ul li .fa-facebook-f:hover {
+    transition: 0.6s ease;
+    background: #0000ff;
+    color: white;
+}
+
 
 .page-4 {
     margin: 100px 0px;
@@ -346,7 +366,7 @@ nav ul li a:hover::after {
 }
 
 .page-4 .hii2 {
-     padding-right: 0;
+    padding-right: 0;
 }
 
 .page-4 .hii3 {
@@ -358,7 +378,7 @@ nav ul li a:hover::after {
 }
 
 
-.hii{
+.hii {
     position: relative;
     overflow: hidden;
 }
@@ -500,14 +520,15 @@ nav ul li a:hover::after {
     border: 2px solid black;
     background-color: transparent;
 }
-.divs .button2{
+
+.divs .button2 {
     font-size: 16px;
     width: 200px;
     padding: 15px 10px;
     margin: 20px 20px;
     border-radius: 30px;
     color: white;
-    border: 2px solid white  ;
+    border: 2px solid white;
     /* background-color: transparent; */
 }
 
@@ -523,6 +544,7 @@ nav ul li a:hover::after {
     background-color: white;
     color: black;
 }
+
 .divs .box2 .button2:hover {
     transition: 0.6s ease-out;
     background-color: white;
@@ -564,7 +586,7 @@ nav ul li a:hover::after {
 }
 
 .text7 .text8 h1 {
-    font-size: 50px;
+    /* font-size: 50px; */
     padding: 20px 0px;
 }
 
